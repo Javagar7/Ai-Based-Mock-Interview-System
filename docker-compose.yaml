@@ -1,0 +1,11 @@
+version: '3'
+services:
+  backend:
+    image: javagar07/jasss:v1b
+    ports:
+      - "5000:5000"
+
+  frontend:
+    image: javagar07/jasss:v1f
+    ports:
+      - "3000:3000"
